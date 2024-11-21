@@ -6,6 +6,7 @@ import AppHeader from './components/AppHeader.jsx'
 import AppMain from './components/AppMain.jsx'
 import AppFooter from './components/AppFooter.jsx'
 import AppCss from './App.css'
+import ArticlesLogic from './components/ArticlesLogic.jsx'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
             <AppHeader />
             <AppMain />
             <AppFooter />
+            <ArticlesLogic />
         </>
 
     )
