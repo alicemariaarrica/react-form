@@ -19,3 +19,16 @@ function addArticle(e) {
     setNewArticle('')
 
 }
+
+function deleteArticle(objectEvent) {
+    console.log(objectEvent.target);
+
+    const indexToDelete = Number(objectEvent.target.getAttribute('data-index'));
+    console.log(article, indexToDelete);
+
+    const newArticles = article.filter((article, index)) => index! = indexToDelete)
+    console.log(newArticles);
+    setArticle(newArticles)
+
+
+}
