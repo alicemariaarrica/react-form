@@ -8,7 +8,6 @@ export default function ArticlesLogic() {
 }
 
 function addArticle(e) {
-
     e.preventDefault()
     console.log(e); //dopo aver controllato se ho bug devo toglierla
     setArticle([
@@ -30,5 +29,17 @@ function deleteArticle(objectEvent) {
     console.log(newArticles);
     setArticle(newArticles)
 
+
+}
+
+return (
+    <main className="bg-black">
+        <div className="container bg-warning">
+            <form onSubmit={addAnime} className="mt-4">
+                <div className="input-group mb-3">
+                    <input type="text" className="form-control" placeholder
+                </div>
+        </div>
+        )
 
 }
