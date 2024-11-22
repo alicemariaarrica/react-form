@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import initialarticles from './data/articles.js'
+import initialarticles from '../data/articles.js'
 
 export default function ArticlesLogic() {
     const [articles, setArticles] = useState(initialarticles)
